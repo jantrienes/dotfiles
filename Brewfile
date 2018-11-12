@@ -15,8 +15,6 @@ brew 'mas'
 brew "git"
 brew "git-lfs"
 brew "gnupg"
-brew "gpg-agent"
-brew "heroku"
 brew "highlight"
 brew "lftp"
 brew "mongodb"
@@ -28,7 +26,6 @@ brew "poppler"
 brew "pdf2svg"
 brew "shellcheck"
 brew "tree"
-brew "umlet"
 
 cask 'anaconda'
 cask 'atom'
@@ -46,6 +43,9 @@ cask 'robo-3t'
 cask 'sourcetree'
 cask 'spotify'
 cask 'texmaker'
+
+# requires java
+brew 'umlet'
 
 # Quicklook
 cask 'qlcolorcode'

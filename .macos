@@ -207,6 +207,9 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (
 # defaults write com.apple.dock wvous-br-corner -int 11
 # defaults write com.apple.dock wvous-br-modifier -int 0
 
+# show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent YES
+
 ###############################################################################
 # Safari & WebKit                                                             #
 ###############################################################################
