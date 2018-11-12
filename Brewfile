@@ -43,6 +43,7 @@ cask 'robo-3t'
 cask 'sourcetree'
 cask 'spotify'
 cask 'texmaker'
+cask 'whatsapp'
 
 # requires java
 brew 'umlet'
@@ -55,5 +56,4 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 mas 'The Unarchiver', id: 425424353
-mas 'WhatsApp', id: 1147396723
 mas 'Magnet', id: 441258766
