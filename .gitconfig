@@ -5,7 +5,7 @@
 	user = jantrienes
 [core]
 	editor = nano
-	excludesfile = /Users/jantrienes/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [push]
 	default = simple
 [difftool "sourcetree"]
@@ -15,7 +15,7 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/jantrienes/.stCommitMsg
+	template = ~/.stCommitMsg
 [gpg]
 	program = gpg1
 [filter "lfs"]

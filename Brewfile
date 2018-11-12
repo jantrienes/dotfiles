@@ -11,6 +11,7 @@ brew "automake"
 brew "bats"
 brew "cloc"
 brew "cmake"
+brew 'mas'
 brew "git"
 brew "git-lfs"
 brew "gnupg"
@@ -52,3 +53,7 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
+
+mas 'The Unarchiver', id: 425424353
+mas 'WhatsApp', id: 1147396723
+mas 'Magnet', id: 441258766

@@ -1,2 +1,2 @@
-export PATH=/Users/jantrienes/Documents/github/util-scripts:$PATH
+export PATH=~/Documents/github/util-scripts:$PATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:$PATH
