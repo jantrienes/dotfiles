@@ -78,6 +78,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 defaults write NSGlobalDomain AppleLanguages -array "en" "de"
 defaults write NSGlobalDomain AppleLocale -string "en_US@currency=EUR"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
+defaults write NSGlobalDomain AppleTemperatureUnit -string "Celsius"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
@@ -232,6 +233,9 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 # Enable “Do Not Track”
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
+# Don't show recently used applications in the Dock
+defaults write com.Apple.Dock show-recents -bool false
+
 
 ###############################################################################
 # Mail                                                                        #
@@ -292,7 +296,7 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 defaults write com.apple.ical "number of hours displayed" 24
 
 # Week should start on Monday
-defaults write com.apple.ical "first day of the week" 1
+defaults read com.apple.iCal "first day of week" -int 1
 
 # Day starts at 9AM
 defaults write com.apple.ical "first minute of work hours" 540
