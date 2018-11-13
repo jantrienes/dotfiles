@@ -3,7 +3,7 @@ alias ..='cd ..'
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 
 alias djupyter='docker run -d -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/datascience-notebook'
-alias desk='cd /Users/jantrienes/Desktop'
+alias desk='cd ~/Desktop'
 alias dstop='docker stop $(docker ps -q)'
 alias grep='grep --color=auto'
 
@@ -20,12 +20,15 @@ alias l='ls -la'
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
-alias scripts='cd /Users/jantrienes/Documents/github/util-scripts/'
+alias scripts='cd ~/Documents/github/util-scripts/'
 
 alias texmaker='open *.tex *.bib -a texmaker && sleep 3 && open *.bib *.tex -a texmaker'
-alias textree='cd /Users/jantrienes/Library/texmf/tex/latex'
+alias textree='cd ~/Library/texmf/tex/latex'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Load aliases for taking cd shortcuts. See https://github.com/jantrienes/util-scripts/blob/master/pathalias
+[ -f ".pathalias" ] && source ".pathalias";
