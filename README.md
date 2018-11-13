@@ -20,6 +20,13 @@ git clone https://github.com/jantrienes/dotfiles.git && cd dotfiles && source bo
 ./brew.sh
 ```
 
+### Install Atom Packages
+
+```bash
+./atom.sh
+```
+
+
 ## Setting up Terminal.app
 
 1. Open Terminal.app.

@@ -1,0 +1,64 @@
+"*":
+  "atom-beautify":
+    python:
+      max_line_length: 100
+      sort_imports: true
+  "atom-python-test":
+    additionalArgs: "-s -v"
+    outputColored: true
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "metrics"
+    ]
+    telemetryConsent: "no"
+    titleBar: "custom"
+  editor:
+    fontSize: 16
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+  "language-babel":
+    autoIndentJSX: true
+    suppressTranspileOnSaveMessages: false
+  latex:
+    buildOnSave: true
+  "linter-pylint":
+    disableTimeout: true
+  "linter-shellcheck":
+    enableNotice: true
+    userParameters: "-x"
+  "linter-ui-default": {}
+  "markdown-pdf": {}
+  "one-dark-ui": {}
+  script:
+    cwdBehavior: "Directory of the script"
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
+  tabs:
+    enableMruTabSwitching: false
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 100
+".css.source.styled":
+  editor:
+    preferredLineLength: 100
+".editorconfig.source":
+  editor:
+    preferredLineLength: 100
+".js.jsx.source":
+  editor:
+    preferredLineLength: 100
+    showIndentGuide: true
+".languagebabel.ttlextension":
+  editor:
+    preferredLineLength: 100
