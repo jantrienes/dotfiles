@@ -5,6 +5,7 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
+brew "librsvg"
 brew "openssl"
 brew "autoconf"
 brew "automake"
