@@ -113,6 +113,8 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Disable shadow in screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
 
+# Disable preview thumbnail when creating screenshots
+defaults write com.apple.screencapture show-thumbnail -bool false
 ###############################################################################
 # Finder                                                                      #
 ###############################################################################
