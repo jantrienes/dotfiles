@@ -21,6 +21,9 @@
   'Get Logger':
     'prefix': 'logger'
     'body': 'logger = logging.getLogger(__name__) # pylint: disable=locally-disabled, invalid-name'
+  'Add pylint ignore':
+    'prefix': 'ignorepylint'
+    'body': '# pylint: disable='
 '.source.js':
   'Test Boilerplate':
     'prefix': 'mocha'
