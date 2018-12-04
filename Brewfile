@@ -27,6 +27,7 @@ brew "poppler"
 brew "pdf2svg"
 brew "shellcheck"
 brew "tree"
+brew "htop"
 
 cask 'anaconda'
 cask 'atom'
