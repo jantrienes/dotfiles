@@ -47,6 +47,7 @@ cask 'sourcetree'
 cask 'spotify'
 cask 'texmaker'
 cask 'whatsapp'
+cask 'adobe-acrobat-reader'
 
 # requires java
 brew 'umlet'
