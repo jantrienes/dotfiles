@@ -28,6 +28,7 @@ brew "pdf2svg"
 brew "shellcheck"
 brew "tree"
 brew "htop"
+brew "wget"
 
 cask 'anaconda'
 cask 'atom'
