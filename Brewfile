@@ -49,6 +49,7 @@ cask 'spotify'
 cask 'texmaker'
 cask 'whatsapp'
 cask 'adobe-acrobat-reader'
+cask 'keepingyouawake'
 
 # requires java
 brew 'umlet'
