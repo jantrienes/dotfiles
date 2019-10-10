@@ -11,3 +11,6 @@ export HISTCONTROL='ignoreboth';
 
 # Highlight section titles in manual pages.
 export LESS_TERMCAP_md="${yellow}";
+
+# Prevent conda from automatically activating base environment upon login
+export CONDA_AUTO_ACTIVATE_BASE=false
