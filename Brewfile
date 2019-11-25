@@ -30,7 +30,7 @@ brew "tree"
 brew "htop"
 brew "wget"
 
-cask 'anaconda'
+cask 'miniconda'
 cask 'atom'
 cask 'docker'
 cask 'dropbox'
