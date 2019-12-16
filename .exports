@@ -14,3 +14,7 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Prevent conda from automatically activating base environment upon login
 export CONDA_AUTO_ACTIVATE_BASE=false
+
+# Avoid pollution of archives with ._* files.
+# See: https://superuser.com/a/260264
+export COPYFILE_DISABLE=1
