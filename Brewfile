@@ -29,6 +29,7 @@ brew "shellcheck"
 brew "tree"
 brew "htop"
 brew "wget"
+brew "jq"
 
 cask 'miniconda'
 cask 'atom'
