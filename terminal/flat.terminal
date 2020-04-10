@@ -294,11 +294,11 @@
 	<key>VisualBell</key>
 	<false/>
 	<key>columnCount</key>
-	<integer>130</integer>
+	<integer>190</integer>
 	<key>name</key>
 	<string>Flat</string>
 	<key>rowCount</key>
-	<integer>44</integer>
+	<integer>60</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
