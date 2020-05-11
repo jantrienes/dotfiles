@@ -6,11 +6,17 @@
   "atom-latex":
     preview_after_build: "View in PDF viewer tab"
   "atom-python-test":
-    additionalArgs: "-v -s"
+    additionalArgs: "-v"
     outputColored: true
+  "atom-test-runner":
+    pythonAllCommand: "pytest {relative_path}"
   "autocomplete-python":
     useKite: false
   core:
+    customFileTypes:
+      "source.yaml": [
+        "MLProject"
+      ]
     disabledPackages: [
       "metrics"
     ]
@@ -18,24 +24,28 @@
     telemetryConsent: "no"
     titleBar: "custom"
   editor:
-    fontSize: 15
     invisibles: {}
     preferredLineLength: 100
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
-    tabType: "soft"
+  "file-types":
+    MLProject: "source.yaml"
+  "fuzzy-finder": {}
   "language-babel":
     autoIndentJSX: true
     suppressTranspileOnSaveMessages: false
   latex:
     buildOnSave: true
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
   "linter-pylint":
     disableTimeout: true
   "linter-shellcheck":
     enableNotice: true
     userParameters: "-x"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-pdf": {}
   "one-dark-ui": {}
   script:
@@ -68,6 +78,18 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+  wordcount:
+    extensions: [
+      "md"
+      "markdown"
+      "readme"
+      "txt"
+      "rst"
+      "adoc"
+      "log"
+      "msg"
+      "tex"
+    ]
 ".babel.regexp.source":
   editor:
     preferredLineLength: 100
