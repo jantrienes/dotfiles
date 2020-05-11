@@ -7,10 +7,14 @@ tap 'homebrew/bundle'
 
 brew "librsvg"
 brew "openssl"
+brew 'ansible'
+brew 'ansible-lint'
 brew "autoconf"
 brew "automake"
 brew "bash-completion"
 brew "bats"
+brew 'bats-core'
+brew 'curl'
 brew "cloc"
 brew "cmake"
 brew 'mas'
@@ -31,6 +35,8 @@ brew "tree"
 brew "htop"
 brew "wget"
 brew "jq"
+brew 'hub'
+brew 'mysql-client'
 
 cask 'miniconda'
 cask 'atom'
@@ -48,10 +54,12 @@ cask 'mendeley'
 cask 'robo-3t'
 cask 'sourcetree'
 cask 'spotify'
-cask 'texmaker'
 cask 'whatsapp'
 cask 'adobe-acrobat-reader'
 cask 'keepingyouawake'
+cask 'sequel-pro'
+cask 'tunnelblick'
+cask 'zoomus'
 
 # requires java
 brew 'umlet'
