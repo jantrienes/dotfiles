@@ -38,6 +38,7 @@ brew 'jq'
 brew 'hub'
 brew 'mysql-client'
 brew 'proselint'
+brew 'grep'
 
 cask 'miniconda'
 cask 'atom'
