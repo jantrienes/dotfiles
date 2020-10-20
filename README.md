@@ -35,3 +35,11 @@ git clone https://github.com/jantrienes/dotfiles.git && cd dotfiles && source bo
 1. Click the gear icon and select Import...
 1. Select `~/dotfiles/terminal/<desired-profile>.terminal` and click Open.
 1. Click the Default button to keep using this profile in new Terminal windows.
+
+## Setting up iTerm2
+
+1. Open iterm2.app.
+1. Select Preferences > Profiles
+1. Click the gear icon and select `Import JSON profiles`
+1. Select `~/dotfiles/terminal/flat-custom.json` and click Open.
+1. Make this profile the default.

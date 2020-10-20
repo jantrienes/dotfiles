@@ -63,6 +63,7 @@ cask 'keepingyouawake'
 cask 'sequel-pro'
 cask 'tunnelblick'
 cask 'zoomus'
+cask 'iterm2'
 
 # requires java
 brew 'umlet'
