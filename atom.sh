@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 rsync --exclude "atom/package-list.txt" \
   -avh --no-perms atom/ ~/.atom;

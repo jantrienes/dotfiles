@@ -10,19 +10,19 @@ git clone https://github.com/jantrienes/dotfiles.git && cd dotfiles && source bo
 
 ### Sensible macOS defaults
 
-```bash
+```sh
 ./.macos
 ```
 
 ### Install Homebrew formulae
 
-```bash
+```sh
 ./brew.sh
 ```
 
 ### Install Atom Packages
 
-```bash
+```sh
 ./atom.sh
 ```
 
