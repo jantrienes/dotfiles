@@ -6,6 +6,9 @@ for file in ~/.{path,exports,zsh_aliases,functions,extra,pathalias}; do
 done;
 unset file;
 
+# Do not highlight pasted text
+zle_highlight+=(paste:none)
+
 # Append to the zsh history file, rather than overwriting it. History is written incrementally,
 # not only when a shell is closed.
 setopt INC_APPEND_HISTORY
