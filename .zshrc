@@ -16,6 +16,7 @@ setopt INC_APPEND_HISTORY
 setopt noautomenu
 setopt nomenucomplete
 
+# Initialize completion system
 autoload -Uz compinit && compinit
 
 autoload -U colors && colors
