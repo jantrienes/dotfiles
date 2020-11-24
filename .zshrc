@@ -13,6 +13,7 @@ zle_highlight+=(paste:none)
 # not only when a shell is closed.
 setopt INC_APPEND_HISTORY
 
+# Disable autocomplete menu
 setopt noautomenu
 setopt nomenucomplete
 
@@ -21,3 +22,16 @@ autoload -Uz compinit && compinit
 
 autoload -U colors && colors
 PS1="%B%{$fg[white]%}%n@%m:%~"$'\n'"%{$reset_color%}%b> "
+
+
+# Conda clobbers HOST, so we save the real hostname into another variable.
+HOSTNAME="$(hostname)"
+
+precmd() {
+    OLDHOST="${HOST}"
+    HOST="${HOSTNAME}"
+}
+
+preexec() {
+    HOST="${OLDHOST}"
+}
