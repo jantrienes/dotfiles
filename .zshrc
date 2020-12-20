@@ -21,8 +21,7 @@ setopt nomenucomplete
 autoload -Uz compinit && compinit
 
 autoload -U colors && colors
-PS1="%B%{$fg[white]%}%n@%m:%~"$'\n'"%{$reset_color%}%b> "
-
+PS1="%B%{$fg[white]%}%n@%m:%~%{$reset_color%}%b$ "
 
 # Conda clobbers HOST, so we save the real hostname into another variable.
 HOSTNAME="$(hostname)"
