@@ -43,3 +43,9 @@ git clone https://github.com/jantrienes/dotfiles.git && cd dotfiles && source bo
 1. Click the gear icon and select `Import JSON profiles`
 1. Select `~/dotfiles/terminal/flat-custom.json` and click Open.
 1. Make this profile the default.
+
+Copy scripts:
+
+```sh
+cp terminal/*.scpt ~/Library/Application\ Support/iTerm2/Scripts/
+```
