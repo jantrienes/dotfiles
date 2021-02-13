@@ -1,17 +1,21 @@
 "*":
   "atom-beautify":
     python:
-      max_line_length: 100
+      default_beautifier: "black"
       sort_imports: true
+  "atom-isort": {}
   "atom-latex":
-    preview_after_build: "View in PDF viewer tab"
+    preview_after_build: "Do nothing"
   "atom-python-test":
-    additionalArgs: "-v"
+    additionalArgs: "-v --show-capture=all -s"
     outputColored: true
   "atom-test-runner":
     pythonAllCommand: "pytest {relative_path}"
   "autocomplete-python":
+    outputDebug: true
     useKite: false
+  "autocomplete-python-jedi":
+    useSnippets: "required"
   core:
     customFileTypes:
       "source.yaml": [
@@ -19,11 +23,15 @@
       ]
     disabledPackages: [
       "metrics"
+      "autocomplete-python"
     ]
+    editor:
+      multiCursorOnClick: true
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
     titleBar: "custom"
   editor:
+    fontSize: 16
     invisibles: {}
     preferredLineLength: 100
     showIndentGuide: true
@@ -31,6 +39,11 @@
     softWrapAtPreferredLineLength: true
   "file-types":
     MLProject: "source.yaml"
+  "formatters-python":
+    formatOrder: [
+      "black"
+      "isort"
+    ]
   "fuzzy-finder": {}
   "language-babel":
     autoIndentJSX: true
@@ -44,10 +57,15 @@
   "linter-shellcheck":
     enableNotice: true
     userParameters: "-x"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-pdf": {}
+  "markdown-preview":
+    useGitHubStyle: true
   "one-dark-ui": {}
+  "python-black-isort":
+    onlyWhenAProjectConfigIsFound: false
+  "python-isort":
+    sortOnSave: true
   script:
     ignoreSelection: true
   "spell-check":
@@ -69,9 +87,7 @@
       "text.tex.latex"
       "text.tex.latex.beamer"
     ]
-    locales: [
-      "en-US"
-    ]
+    useLocales: false
   "status-bar": {}
   tabs:
     enableMruTabSwitching: false
