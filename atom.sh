@@ -9,4 +9,4 @@ apm install --packages-file atom/package-list.txt
 pip install proselint
 
 # for python beautifier
-pip install autopep8
+pip install autopep8 isort black
