@@ -23,6 +23,10 @@ else
   endif
 endif
 
+set backupdir=~/.vim/tmp/,.
+set undodir=~/.vim/tmp/,.
+set directory=~/.vim/tmp/,.
+
 if &t_Co > 2 || has("gui_running")
   " Switch on highlighting the last used search pattern.
   set hlsearch
