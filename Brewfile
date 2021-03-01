@@ -53,7 +53,6 @@ cask 'dropbox'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'java'
 cask 'skype'
 cask 'slack'
 cask 'mactex'
@@ -65,10 +64,9 @@ cask 'adobe-acrobat-reader'
 cask 'keepingyouawake'
 cask 'sequel-pro'
 cask 'tunnelblick'
-cask 'zoomus'
+cask 'zoom'
 cask 'iterm2'
 
-# requires java
 brew 'umlet'
 
 # Quicklook
