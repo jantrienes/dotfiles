@@ -2,7 +2,6 @@ alias ..='cd ..'
 
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 
-alias djupyter='docker run -d -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/datascience-notebook'
 alias desk='cd ~/Desktop'
 alias dstop='docker stop $(docker ps -q)'
 alias grep='grep --color=auto'
@@ -19,11 +18,6 @@ fi
 alias l='ls -la'
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
-
-alias scripts='cd ~/Documents/github/util-scripts/'
-
-alias texmaker='open *.tex *.bib -a texmaker && sleep 3 && open *.bib *.tex -a texmaker'
-alias textree='cd ~/Library/texmf/tex/latex'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
