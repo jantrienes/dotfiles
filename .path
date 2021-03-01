@@ -1,4 +1,4 @@
-export PATH=~/Documents/github/util-scripts:$PATH
+export PATH=~/github/util-scripts:$PATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:$PATH
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 export PATH="/usr/local/Caskroom/miniconda/base/bin:$PATH"
