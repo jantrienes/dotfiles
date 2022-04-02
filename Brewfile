@@ -76,6 +76,7 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
+cask 'zotero'
 
 mas 'The Unarchiver', id: 425424353
 mas 'Magnet', id: 441258766
