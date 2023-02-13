@@ -47,6 +47,7 @@ brew 'proselint'
 brew 'grep'
 
 cask 'appcleaner'
+cask 'chromium'
 cask 'miniconda'
 cask 'atom'
 cask 'docker'
