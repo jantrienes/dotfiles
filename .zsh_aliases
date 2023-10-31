@@ -33,3 +33,6 @@ alias maas='open http://localhost:8000 && ssh jan@login.ikim.uk-essen.de -L 8000
 
 # https://stackoverflow.com/a/70035331/3423035
 function rcode() {code --remote ssh-remote+$1 $2}
+
+# Pipe json through jq and display in less with correct colors
+function jql() {cat $1 | jq -C | less -R}
